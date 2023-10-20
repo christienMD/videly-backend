@@ -3,6 +3,8 @@ const { Movie } = require("./models/movie");
 const mongoose = require("mongoose");
 const config = require("config");
 
+
+
 const data = [
   {
     name: "Comedy",
