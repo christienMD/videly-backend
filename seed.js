@@ -40,7 +40,7 @@ const data = [
 
 async function seed() {
   const db =
-    "mongodb+srv://vidleyUser:Lionofjud%40h@nodevidelycluster.cwo0gic.mongodb.net/videly";
+    "mongodb+srv://vidleyUser:Lionofjud%40h@nodevidelycluster.cwo0gic.mongodb.net/";
 
   // console.log("db seed: ", db);
   await mongoose.connect(db);
